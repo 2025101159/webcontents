@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>설문지</title>
+</head>
+<body>
+    <h3>설문지</h3>
+    <p> 소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</p><br>
+    <hr><br>
+    <form>
+        학년 : <input type="text" list="grade">
+                <datalist id="grade">
+                    <option value="1학년">1학년
+                    <option value="2학년">2학년
+                    <option value="3학년">3학년
+                </datalist>
+        성별 : <label><input type="radio" name="gender" value="1">남성</label>
+               <label><input type="radio" name="gender" value="2">여성</label><br>
+        관심분야 : <input type="text"><br>
+        진로 : <label><input type="checkbox" name="course" value="1">개발</label>
+               <label><input type="checkbox" name="course" value="2">기획</label>
+               <label><input type="checkbox" name="course" value="3">영업</label>
+               <label><input type="checkbox" name="course" value="4">창업</label><br>
+        남기고 싶은 말<br>
+        <textarea rows="10" cols="50" placeholder="글로 남겨 주세요."></textarea>
+    </form>
+</body>
+</html>
